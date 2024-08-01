@@ -1,0 +1,59 @@
+.articles-2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+  }
+  
+  .articles__cards-2 {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    max-width: 1030px;
+  }
+  
+  .articles__card-2 {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    transition: .5s;
+  }
+  
+ 
+  
+  .articles__card__title-2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: left;
+    color: #212121;
+  }
+  
+  .articles-2__link {
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .articles__link {
+    max-width: 274px;
+    width: 100%;
+    border: none;
+    padding: 16px 72px;
+    height: 64px;
+    border-radius: 3px;
+    background: #0D6EFD;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s;
+  }
+  

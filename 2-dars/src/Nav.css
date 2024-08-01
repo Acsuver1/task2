@@ -1,0 +1,36 @@
+.container {
+    padding: 0 165px;
+  }
+  .nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px 0;
+  }
+  
+
+  
+  .nav__right {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+  
+  .nav__profile {
+    display: flex;
+    gap: 8px;
+    outline: none;
+  }
+  
+  .profile__user {
+    border: none;
+  }
+  
+  .nav__extra {
+    display: flex;
+    gap: 40px;
+  }

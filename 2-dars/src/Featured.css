@@ -1,0 +1,39 @@
+.featured {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 56px 0;
+    position: relative;
+  }
+  
+  .featured__card {
+    max-width: 326px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 64px;
+    bottom: 120px;
+  }
+  
+  .featured__main__title {
+    padding: 4px 24px;
+    width: 112px;
+    background: #0D6EFD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .featured__title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: left;
+    color: #FFFFFF;
+  }
